@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f1f5f9;
+}
+
+.like-container {
+  width: 300px;
+  margin: 100px auto;
+  padding: 30px;
+  text-align: center;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.like-container div {
+  font-size: 26px;
+  font-weight: bold;
+  color: #1e293b;
+}
+
+.like-container h2 {
+  margin: 25px 0;
+  font-size: 55px;
+}
+
+.like-container button {
+  padding: 12px 30px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2563eb;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.like-container button:hover {
+  background-color: #1d4ed8;
+}

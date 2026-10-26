@@ -1,10 +1,11 @@
-import React from "react";
-import Counter from "./components/Counter";
+import Counter from "./components/counterApp/Counter";
+import Like from "./components/Like&Unlike/Like";
 
 function App() {
   return (
     <>
       <Counter />
+      <Like />
     </>
   );
 }
