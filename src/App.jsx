@@ -1,4 +1,5 @@
 import Counter from "./components/counterApp/Counter";
+import MultiuseState from "./components/FormControl/MultiuseState";
 import Like from "./components/Like&Unlike/Like";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <Counter />
       <Like />
+      <MultiuseState />
     </>
   );
 }
